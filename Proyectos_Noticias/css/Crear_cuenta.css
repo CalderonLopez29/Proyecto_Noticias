@@ -1,0 +1,8 @@
+.Informacion{
+    background: rgb(32, 73, 75);
+    color: white;
+    margin: 50px 10%;
+    padding: 10px;
+    display: flex;
+
+}

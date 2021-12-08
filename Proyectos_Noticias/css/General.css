@@ -1,0 +1,28 @@
+body{
+    background: rgb(43, 45, 70);
+}
+h1{
+    font-family: Arial;
+    font-size: xx-large;
+    margin: 10px;
+    color: white;
+}
+.Menu{
+    position: sticky;
+    top: 0;/* La propiedad sticky y top nos ayuda a posicional el menú al principio
+              de manera que cuando hago scroll el menú no desaparesca*/
+    background: rgb(0, 0, 0);
+    padding: 10px;
+}
+.Menu a{
+    margin: 5%;
+    color:white;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+

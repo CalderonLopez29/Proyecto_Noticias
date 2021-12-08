@@ -1,0 +1,30 @@
+article {
+    background: rgba(12,12,30, 0.9);
+    margin: 10px;
+    padding: 10px;
+
+}
+
+article button a{
+    color: white;
+}
+    article div ul{
+        color:rgb(255, 255, 255); 
+    }
+    article div ul li img{
+        width: 500px; 
+        height: 300px;
+        
+    }
+    article div ul h4{
+        font-size: x-large;
+        font-family: serif;
+        color: rgb(244, 177, 59);
+        }
+
+article button{
+    background:red;
+    border-radius: 10px 10px;
+    font-size: large;
+    font-style: inherit;
+}

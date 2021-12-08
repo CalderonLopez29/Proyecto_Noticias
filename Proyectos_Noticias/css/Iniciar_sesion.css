@@ -1,0 +1,13 @@
+
+.Login{
+    width: 300px;
+    height: min-content;
+    background: black;
+    margin: 50px 25%;
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif; 
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
+}
