@@ -5,9 +5,7 @@ article {
 
 }
 
-article button a{
-    color: white;
-}
+
     article div ul{
         color:rgb(255, 255, 255); 
     }
@@ -22,9 +20,15 @@ article button a{
         color: rgb(244, 177, 59);
         }
 
-article button{
-    background:red;
-    border-radius: 10px 10px;
-    font-size: large;
+.boton_regreso{
+    background: hsl(204, 60%, 27%);
+    border: blue;
+    border-radius: 60px 60px;
+    height: 50px;
+    width: 115px;
+    font-size: 20px;
     font-style: inherit;
+}
+article button a{
+    color: #e9df56;
 }

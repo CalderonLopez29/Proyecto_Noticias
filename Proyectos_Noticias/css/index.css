@@ -1,6 +1,13 @@
-div iframe { 
+/*El siguinete código lo saque de interet para
+que no se viera el borde del iframe*/
+html, body, div, iframe {
     margin:0; 
-    width: 100%;
-    height: 630px;
-    border:none;
+    padding:0; 
+    height:100%; 
+}
+
+iframe { 
+    display:block; 
+    width:100%; 
+    border:none; 
 }

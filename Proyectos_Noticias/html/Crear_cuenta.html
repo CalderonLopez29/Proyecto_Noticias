@@ -2,15 +2,19 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8"><!--Caracteres especiales-->
+    <meta charset="UTF-8">
+    <!--Caracteres especiales-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Calderón López Brayan Octavio"><!--Propiedad intelectual/ autor-->
-    <meta name="description" content="Crea tu cuenta"><!--Describe un poco de la página-->
-    <meta http-equiv="cache-control" content="no-cache"><!--Borra el cache del proxy-->
-    
-    
-    
+    <meta name="author" content="Calderón López Brayan Octavio">
+    <!--Propiedad intelectual/ autor-->
+    <meta name="description" content="Crea tu cuenta">
+    <!--Describe un poco de la página-->
+    <meta http-equiv="cache-control" content="no-cache">
+    <!--Borra el cache del proxy-->
+
+
+
     <title>CREAR_CUENTAS</title>
     <link rel="stylesheet" href="..\css\General.css">
     <link rel="stylesheet" href="..\css\Crear_cuenta.css">
@@ -23,26 +27,33 @@
         <a href="Crear_cuenta.html">Crear cuentas</a>
         <a href="Iniciar_sesion.html">Iniciar sesion</a>
     </div>
-    <form >
+    <form>
         <div class="Informacion">
             <div>
                 <br>
-            <input type="text" placeholder="Nombre">
-            <input type="text" placeholder="Apellido">
-            <br>
-            <p>Correo: <input type="email" placeholder="Ingresa tu correo"></p>
-            <p>Dia de nacimiento: <input type="date" ></p>
-            <p>Ingresa una contraseña: <input type="password" placeholder="Contraseña"></p>
-            <p> Verifica tu contraseña: <input type="password" placeholder="Contraseña"></p>
-            <br> <br>
-            
+                <p>Nombre: <input type="text" placeholder="Nombre" required></p>
+                <p>Apellido: <input type="text" placeholder="Apellido" required></p>
+                <br>
+                <p>Correo: <input type="email" placeholder="Ingresa tu correo" required></p>
+                <p>Dia de nacimiento: <input type="date" required></p>
+                <p>Ingresa una contraseña: <input type="password" placeholder="Contraseña" required></p>
+                <p> Verifica tu contraseña: <input type="password" placeholder="Contraseña" required></p>
             </div>
             <div>
-                <p><input type="checkbox"> No soy un robot</p>
+                <p><input type="checkbox" required> No soy un robot</p>
                 <img src="../img/Homero.gif" alt="Homero">
+                <button>Registrar</button>
             </div>
         </div>
     </form>
+    <footer>
+        <img src="../img/IMG_0081.JPG" alt="Logo_de_laempresa" width="200px" height="150px">
+        <p>Calderón López Brayan Octavio <br>
+            Proyecto de noticias <br>
+            Correo:Noticias_TIC@gmail.com <br>
+            Cel:55-4521-5468 <br>
+        </p>
+</footer>
 </body>
 
 </html>

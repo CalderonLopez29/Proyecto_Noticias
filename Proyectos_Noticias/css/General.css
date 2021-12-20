@@ -26,3 +26,14 @@ a:hover{
     text-decoration:underline;
 }
 
+footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #E9DD56;
+    font-size: x-large;
+    padding: 20px;
+    display: flex;
+}
+footer p {
+    padding-left: 50px;
+}
+

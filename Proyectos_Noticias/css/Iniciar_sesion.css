@@ -1,13 +1,22 @@
 
+body{
+    background-image: url(../img/fondo-login.jpg);
+}
 .Login{
     width: 300px;
     height: min-content;
-    background: black;
+    background: rgba(10, 10, 10, 0.9);
     margin: 50px 25%;
-    padding: 10px;
+    padding: 50px 50px 100px 50px;
     color: white;
     font-family: 'Times New Roman', Times, serif; 
     flex-direction: column;
     text-align: center;
     vertical-align: middle;
+    border-radius: 25px;
+}
+button {
+    color: black;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
